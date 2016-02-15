@@ -1,7 +1,5 @@
 # NTUE MERN Examples
-## Node.js + Express + Mongo + React
-## 包含上課程式範例
-##NODE.js
+>##NODE.js
 Node.js是一種可以使用於後台的javascript加強版本。本課程模組包含Javascript進階課程，模組化開發，非同步處理，NPM套件管理，路由器界面，與網路界面。
 ##Express
 Express是一種伺服器框架，可以簡化Node.js的開發。本課程模組包含了路由器, 範本渲染，與中間層設計
