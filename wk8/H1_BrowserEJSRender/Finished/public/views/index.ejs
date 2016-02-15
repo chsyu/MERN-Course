@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<link href="css/style.css" type="text/css" rel="stylesheet" />
+		<script src="https://code.jquery.com/jquery-1.11.3.min.js" ></script>
+		<script src="js/ejs_production.js"></script>
+	</head>
+	<body>
+		<h1>New User</h1>
+		<form method="POST" action="/person">
+			<div class='name'>First name:</div> <input type="text" id="firstname" name="firstname" /><br />
+			<div class='name'>Last name:</div> <input type="text" id="lastname" name="lastname" /><br />
+			<div class='name'>Age:</div> <input type="text" id="age" name="age" /><br />
+			<div class='name'>Occupation:</div> <input type="text" id="occupation" name="occupation" /><br />
+			<input type="submit" value="Submit" />
+		</form>
+		<h1>Users Stored</h1>
+		<div class="userinfo">
+			<% if (userinfos.length) { %>
+			  <ul>
+	  		  <% userinfos.forEach(function(userinfo){ %>
+			      <li><div class='name'><%= userinfo['firstname'] %> <%= userinfo['lastname'] %></div><a href="">VIEW</a> <a href="#">DEL</a> <a href="#">EDIT</a></li>
+			    <% }) %>
+		  	</ul>
+			<% } %>
+		</div>
+		<div id="ejs-injection"></div>
+		<script src="js/script.js"></script>
+	</body>
+</html>

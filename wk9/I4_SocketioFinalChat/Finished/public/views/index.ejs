@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>socketio</title>
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.5/socket.io.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- CHAT MARKUP -->
+  <div class="example-chat l-demo-container">
+    <header>Socket.io Chat Demo</header>
+
+    <div class='example-chat-toolbar'>
+      <label for="nameInput">Username:</label>
+      <input type='text' id='nameInput' placeholder='enter a username...'>
+    </div><!-- end example-chat-toolbar -->
+
+    <ul id='example-messages' class="example-chat-messages"></ul>
+
+    <footer>
+      <input type='text' id='messageInput'  placeholder='Type a message...'>
+    </footer>
+  </div>
+
+  <!-- customized javascript -->
+  <script src="js/script.js"></script>
+</body>
+</html>

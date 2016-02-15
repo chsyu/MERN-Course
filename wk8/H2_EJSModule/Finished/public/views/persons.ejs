@@ -1,0 +1,7 @@
+<% if (userinfos.length) { %>
+  <ul>
+    <% userinfos.forEach(function(userinfo){ %>
+      <li><div class='name'><%= userinfo['firstname'] %> <%= userinfo['lastname'] %></div><a href="">VIEW</a> <a href="#">DEL</a> <a href="#">EDIT</a></li>
+    <% }) %>
+  </ul>
+<% } %>

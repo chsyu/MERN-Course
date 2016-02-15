@@ -1,0 +1,12 @@
+{
+	"firstname": "Simon",
+	"fullname": "",
+	"age": 37,
+	"married": true,
+	"has-own-hair": null,
+	"children": [{
+		"firstname": "Erica"
+	}, {
+		"firstname": "Isobel"
+	}]
+}
