@@ -8,7 +8,6 @@ module.exports = {
     filename: 'bundle.js'
   },
   devServer: {
-    color:              true,
     historyApiFallback: true,
     contentBase:        './',
     inline:             true,
