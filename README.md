@@ -23,9 +23,9 @@ REACT是一種元件導向的前端框架，主要處理前端的UI渲染。本�
 - wk9: 期中專題報告
 - wk10: React基礎
 - wk11: React的單向資料流
-- wk12: Flux前端單向資料與Redux框架
-- wk13: SPA與React-Router
-- wk14: SEO與Isomorphic基礎
+- wk12: Redux框架
+- wk13: Redux框架與React-Router
+- wk14: React Router與SPA
 - wk15: React Native-從Web APP到Native APP(一)
 - wk16: React Native-從Web APP到Native APP(二)
 - wk17: 小型專題
