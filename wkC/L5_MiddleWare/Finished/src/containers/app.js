@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import { connect } from 'react-redux';
-import { videoSelect, videoSearch } from '../actions/index';
 import { bindActionCreators } from 'redux';
+import { videoSelect, videoSearch } from '../actions/index';
 import SearchBar from '../components/search_bar';
 import VideoList from '../components/video_list';
 import VideoDetail from '../components/video_detail';

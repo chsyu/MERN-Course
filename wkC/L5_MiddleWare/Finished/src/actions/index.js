@@ -9,7 +9,7 @@ export const VIDEO_SEARCH = 'VIDEO_SEARCH';
 
 export function videoSelect(video) {
   return {
-    type: 'VIDEO_SELECTED',
+    type: VIDEO_SELECTED,
     payload: video
   };
 }
@@ -25,7 +25,7 @@ export function videoSearch(term) {
   const request = axios.get(ROOT_URL, { params: params });
 
   return {
-    type: 'VIDEO_SEARCH',
+    type: VIDEO_SEARCH,
     payload: request
   };
 }
