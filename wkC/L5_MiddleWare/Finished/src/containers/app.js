@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
 import { videoSelect, videoSearch } from '../actions/index';
 import SearchBar from '../components/search_bar';
 import VideoList from '../components/video_list';
@@ -26,7 +25,6 @@ class App extends Component {
   }
 }
 
-
 function mapStateToProps(state) {
   if (!state.selectedVideo){
     return {
@@ -42,11 +40,4 @@ function mapStateToProps(state) {
   }
 }
 
-function mapDispatchToProps(dispatch) {
-  return bindActionCreators({
-    videoSelect: videoSelect,
-    videoSearch: videoSearch
-  }, dispatch);
-}
-
-export default connect(mapStateToProps, mapDispatchToProps)(App);
+export default connect(mapStateToProps, {videoSelect, videoSearch})(App);
