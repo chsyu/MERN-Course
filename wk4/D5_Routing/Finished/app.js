@@ -17,7 +17,7 @@ http.createServer(function(req, res) {
     }
     else {
         res.writeHead(404);
-        res.end();
+        res.end('Web Not Found');
     }
     
-}).listen(1337, '127.0.0.1');
+}).listen(8080, '127.0.0.1');
