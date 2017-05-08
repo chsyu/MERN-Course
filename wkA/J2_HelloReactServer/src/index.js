@@ -5,7 +5,10 @@ import {Component} from 'react';
 class HelloWorld extends Component {
   render() {
     return (
-      <h1>Hello World!</h1>
+      <div>
+        <h1>Hello World!</h1>
+        <h2>Hello again ... </h2>
+      </div>
     );
   }
 }

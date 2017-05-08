@@ -94,6 +94,7 @@ function submitUser(event) {
     $("#userupdate").html("");
     var html = new EJS({url: 'views/persons.ejs'}).render(res);
     $("#userinfo").html(html);
+    $("#userupdate").html('');
   });
 };
 
@@ -113,6 +114,7 @@ function deleteUser(event) {
         }).done(function( res ) {
           var html = new EJS({url: 'views/persons.ejs'}).render(res);
           $("#userinfo").html(html);
+          $("#userupdate").html('');
         });
 
     }

@@ -2,6 +2,9 @@
   "name": "HelloReactServer",
   "version": "1.0.0",
   "description": "",
+  "babel": {
+    "presets": ["es2015", "react"]
+  },  
   "main": "index.js",
   "repository": "",
   "scripts": {

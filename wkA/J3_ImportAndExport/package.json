@@ -2,6 +2,9 @@
   "name": "J4_ImportAndExport",
   "version": "1.0.0",
   "description": "",
+  "babel": {
+    "presets": ["es2015", "react"]
+  },  
   "main": "app_import_all.js",
   "dependencies": {
     "babel-cli": "^6.5.1",
