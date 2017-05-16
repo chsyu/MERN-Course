@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "repository": "",
+  "babel": {
+    "presets": ["es2015", "react"]
+  },  
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
   },
